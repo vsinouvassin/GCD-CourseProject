@@ -170,275 +170,277 @@ And this is the output, I write on a file called "tidyData.txt".
 
 # Data Dictionary: Description of each variable of tidyData data set
 1. subject
-    ID of the subject who performed the activity
-    Integer value: 1:30
+    - ID of the subject who performed the activity
+    - Integer value: 1:30
     
 2. activity
-    Name of the activity performed
-    Character values: "Walking", "WalkingUpstairs", "WalkingDownstairs",
+    - Name of the activity performed
+    - Character values: "Walking", "WalkingUpstairs", "WalkingDownstairs",
     "Sitting", "Standing", "Laying"
     
 3. timeBodyAccMeanX
-    Mean of the Average Time of body linear acceleration on the X direction
-    Numerical value
+    - Mean of the Average Time of body linear acceleration on the X direction
+    - Numerical value
     
 4. timeBodyAccMeanY
-    Mean of the Average Time of body linear acceleration on the Y direction
-    Numerical value
+    - Mean of the Average Time of body linear acceleration on the Y direction
+    - Numerical value
     
 5. timeBodyAccMeanZ
-    Mean of the Average Time of body linear acceleration on the Z direction
-    Numerical value
+    - Mean of the Average Time of body linear acceleration on the Z direction
+    - Numerical value
     
 6. timeBodyAccStandardDeviationX
-    Mean of the Standard deviation Time of body linear acceleration on the X direction
-    Numerical value
+    - Mean of the Standard deviation Time of body linear acceleration on the X direction
+    - Numerical value
     
 7. timeBodyAccStandardDeviationY
-    Mean of the Standard deviation Time of body linear acceleration on the Y direction
-    Numerical value
+    - Mean of the Standard deviation Time of body linear acceleration on the Y direction
+    - Numerical value
 
 8. timeBodyAccStandardDeviationZ
-    Mean of the Standard deviation Time of body linear acceleration on the Z direction
-    Numerical value
+    - Mean of the Standard deviation Time of body linear acceleration on the Z direction
+    - Numerical value
     
 9. timeGravityAccMeanX
-    Mean of the Average Time of Gravity acceleration on the X direction
-    Numerical value
+    - Mean of the Average Time of Gravity acceleration on the X direction
+    - Numerical value
     
 10. timeGravityAccMeanY
-    Mean of the Average Time of Gravity acceleration on the Y direction
-    Numerical value
+    - Mean of the Average Time of Gravity acceleration on the Y direction
+    - Numerical value
     
 11. timeGravityAccMeanZ
-    Mean of the Average Time of Gravity acceleration on the Z direction
-    Numerical value
+    - Mean of the Average Time of Gravity acceleration on the Z direction
+    - Numerical value
     
 12. timeGravityAccStandardDeviationX
-    Mean of the Standard deviation Time of Gravity acceleration on the X direction
-    Numerical value
+    - Mean of the Standard deviation Time of Gravity acceleration on the X direction
+    - Numerical value
     
 13. timeGravityAccStandardDeviationY
-    Mean of the Standard deviation Time of Gravity acceleration on the Y direction
-    Numerical value
+    - Mean of the Standard deviation Time of Gravity acceleration on the Y direction
+    - Numerical value
     
 14. timeGravityAccStandardDeviationZ
-    Mean of the Standard deviation Time of Gravity acceleration on the Z direction
-    Numerical value
+    - Mean of the Standard deviation Time of Gravity acceleration on the Z direction
+    - Numerical value
     
 15. timeBodyAccJerkMeanX
-    Mean of the Average Derivation in Time of the body linear acceleration on the X direction
-    Numerical value
+    - Mean of the Average Derivation in Time of the body linear acceleration on the X direction
+    - Numerical value
     
 16. timeBodyAccJerkMeanY
-    Mean of the Average Derivation in Time of the body linear acceleration on the Y direction
-    Numerical value
+    - Mean of the Average Derivation in Time of the body linear acceleration on the Y direction
+    - Numerical value
     
 17. timeBodyAccJerkMeanZ
-    Mean of the Average Derivation in Time of the body linear acceleration on the Z direction
-    Numerical value
+    - Mean of the Average Derivation in Time of the body linear acceleration on the Z direction
+    - Numerical value
     
 18. timeBodyAccJerkStandardDeviationX
-    Mean of the Standard deviation Derivation in Time of the body linear acceleration on the X direction
-    Numerical value
+    - Mean of the Standard deviation Derivation in Time of the body linear acceleration on the X direction
+    - Numerical value
     
 19. timeBodyAccJerkStandardDeviationY
-    Mean of the Standard deviation Derivation in Time of the body linear acceleration on the Y direction
-    Numerical value
+    - Mean of the Standard deviation Derivation in Time of the body linear acceleration on the Y direction
+    - Numerical value
     
 20. timeBodyAccJerkStandardDeviationZ
-    Mean of the Standard deviation Derivation in Time of the body linear acceleration on the Z direction
-    Numerical value
+    - Mean of the Standard deviation Derivation in Time of the body linear acceleration on the Z direction
+    - Numerical value
     
 21. timeBodyGyroMeanX
-    Mean of the Average Time of the body angular velocity on the X direction
-    Numerical value
+    - Mean of the Average Time of the body angular velocity on the X direction
+    - Numerical value
     
 22. timeBodyGyroMeanY
-    Mean of the Average Time of the body angular velocity on the Y direction
-    Numerical value
+    - Mean of the Average Time of the body angular velocity on the Y direction
+    - Numerical value
     
 23. timeBodyGyroMeanZ
-    Mean of the Average Time of the body angular velocity on the Z direction
-    Numerical value
+    - Mean of the Average Time of the body angular velocity on the Z direction
+    - Numerical value
     
 24. timeBodyGyroStandardDeviationX
-    Mean of the Standard deviation Time of the body angular velocity on the X direction
+    - Mean of the Standard deviation Time of the body angular velocity on the X direction
+    - Numerical value
     
 25. timeBodyGyroStandardDeviationY
-    Mean of the Standard deviation Time of the body angular velocity on the Y direction
+    - Mean of the Standard deviation Time of the body angular velocity on the Y direction
+    - Numerical value
     
 26. timeBodyGyroStandardDeviationZ
-    Mean of the Standard deviation Time of the body angular velocity on the Z direction
-    Numerical value
+    - Mean of the Standard deviation Time of the body angular velocity on the Z direction
+    - Numerical value
     
 27. timeBodyGyroJerkMeanX
-    Mean of the Average Derived Time of the body angular velocity on the X direction
-    Numerical value
+    - Mean of the Average Derived Time of the body angular velocity on the X direction
+    - Numerical value
     
 28. timeBodyGyroJerkMeanY
-    Mean of the Average Derived Time of the body angular velocity on the Y direction
-    Numerical value
+    - Mean of the Average Derived Time of the body angular velocity on the Y direction
+    - Numerical value
     
 29. timeBodyGyroJerkMeanZ
-    Mean of the Average Derived Time of the body angular velocity on the Z direction
-    Numerical value
+    - Mean of the Average Derived Time of the body angular velocity on the Z direction
+    - Numerical value
     
 30. timeBodyGyroJerkStandardDeviationX
-    Mean of the Standard deviation Derived Time of the body angular velocity on the X direction
-    Numerical value
+    - Mean of the Standard deviation Derived Time of the body angular velocity on the X direction
+    - Numerical value
     
 31. timeBodyGyroJerkStandardDeviationY
-    Mean of the Standard deviation Derived Time of the body angular velocity on the Y direction
-    Numerical value
+    - Mean of the Standard deviation Derived Time of the body angular velocity on the Y direction
+    - Numerical value
     
 32. timeBodyGyroJerkStandardDeviationZ
-    Mean of the Standard deviation Derived Time of the body angular velocity on the Z direction
-    Numerical value
+    - Mean of the Standard deviation Derived Time of the body angular velocity on the Z direction
+    - Numerical value
     
 33. timeBodyAccMagMean
-    Mean of the Average Magnitude Time of the body angular velocity
-    Numerical value
+    - Mean of the Average Magnitude Time of the body angular velocity
+    - Numerical value
 
 34. timeBodyAccMagStandardDeviation
-    Mean of the Standard deviation Magnitude Time of the body angular velocity
-    Numerical value
+    - Mean of the Standard deviation Magnitude Time of the body angular velocity
+    - Numerical value
     
 35. timeGravityAccMagMean
-    Mean of the Average Magnitude Time of the gravity acceleration
-    Numerical value
+    - Mean of the Average Magnitude Time of the gravity acceleration
+    - Numerical value
     
 36. timeGravityAccMagStandardDeviation
-    Mean of the Standard deviation Magnitude Time of the gravity acceleration
-    Numerical value
+    - Mean of the Standard deviation Magnitude Time of the gravity acceleration
+    - Numerical value
     
 37. timeBodyAccJerkMagMean
-    Mean of the Average Magnitue Derivation in Time of the body linear acceleration
-    Numerical value
+    - Mean of the Average Magnitue Derivation in Time of the body linear acceleration
+    - Numerical value
     
 38. timeBodyAccJerkMagStandardDeviation
-    Mean of the Standard deviation Magnitue Derivation in Time of the body linear acceleration
-    Numerical value
+    - Mean of the Standard deviation Magnitue Derivation in Time of the body linear acceleration
+    - Numerical value
     
 39. timeBodyGyroMagMean
-    Mean of the Average Magnitude Time of the body angular velocity
-    Numerical value
+    - Mean of the Average Magnitude Time of the body angular velocity
+    - Numerical value
     
 40. timeBodyGyroMagStandardDeviation
-    Mean of the Standard deviation Magnitude Time of the body angular velocity
-    Numerical value
+    - Mean of the Standard deviation Magnitude Time of the body angular velocity
+    - Numerical value
     
 41. timeBodyGyroJerkMagMean
-    Mean of the Average Derived Magnitude Time of the body angular velocity
-    Numerical value
+    - Mean of the Average Derived Magnitude Time of the body angular velocity
+    - Numerical value
     
 42. timeBodyGyroJerkMagStandardDeviation
-    Mean of the Standard deviation Derived Magnitude Time of the body angular velocity
-    Numerical value
+    - Mean of the Standard deviation Derived Magnitude Time of the body angular velocity
+    - Numerical value
     
 43. freqBodyAccMeanX
-    Mean of the Average Frequency of body linear acceleration on the X direction
-    Numerical value
+    - Mean of the Average Frequency of body linear acceleration on the X direction
+    - Numerical value
     
 44. freqBodyAccMeanY
-    Mean of the Average Frequency of body linear acceleration on the Y direction
-    Numerical value
+    - Mean of the Average Frequency of body linear acceleration on the Y direction
+    - Numerical value
     
 45. freqBodyAccMeanZ
-    Mean of the Average Frequency of body linear acceleration on the Z direction
-    Numerical value
+    - Mean of the Average Frequency of body linear acceleration on the Z direction
+    - Numerical value
     
 46. freqBodyAccStandardDeviationX
-    Mean of the Standard deviation Frequency of body linear acceleration on the X direction
-    Numerical value
+    - Mean of the Standard deviation Frequency of body linear acceleration on the X direction
+    - Numerical value
     
 47. freqBodyAccStandardDeviationY
-    Mean of the Standard deviation Frequency of body linear acceleration on the Y direction
-    Numerical value
+    - Mean of the Standard deviation Frequency of body linear acceleration on the Y direction
+    - Numerical value
     
 48. freqBodyAccStandardDeviationZ
-    Mean of the Standard deviation Frequency of body linear acceleration on the Z direction
-    Numerical value
+    - Mean of the Standard deviation Frequency of body linear acceleration on the Z direction
+    - Numerical value
     
 49. freqBodyAccJerkMeanX
-    Mean of the Average Derived Frequency of body linear acceleration on the X direction
-    Numerical value
+    - Mean of the Average Derived Frequency of body linear acceleration on the X direction
+    - Numerical value
     
 50. freqBodyAccJerkMeanY
-    Mean of the Average Derived Frequency of body linear acceleration on the Y direction
-    Numerical value
+    - Mean of the Average Derived Frequency of body linear acceleration on the Y direction
+    - Numerical value
     
 51. freqBodyAccJerkMeanZ
-    Mean of the Average Derived Frequency of body linear acceleration on the Z direction
-    Numerical value
+    - Mean of the Average Derived Frequency of body linear acceleration on the Z direction
+    - Numerical value
     
 52. freqBodyAccJerkStandardDeviationX
-    Mean of the Standard deviation Derived Frequency of body linear acceleration on the X direction
-    Numerical value
+    - Mean of the Standard deviation Derived Frequency of body linear acceleration on the X direction
+    - Numerical value
     
 53. freqBodyAccJerkStandardDeviationY
-    Mean of the Standard deviation Derived Frequency of body linear acceleration on the Y direction
-    Numerical value
+    - Mean of the Standard deviation Derived Frequency of body linear acceleration on the Y direction
+    - Numerical value
     
 54. freqBodyAccJerkStandardDeviationZ
-    Mean of the Standard deviation Derived Frequency of body linear acceleration on the Z direction
-    Numerical value
+    - Mean of the Standard deviation Derived Frequency of body linear acceleration on the Z direction
+    - Numerical value
     
 55. freqBodyGyroMeanX
-    Mean of the Average Frequency of the body angular velocity on the X direction
-    Numerical value
+    - Mean of the Average Frequency of the body angular velocity on the X direction
+    - Numerical value
     
 56. freqBodyGyroMeanY
-    Mean of the Average Frequency of the body angular velocity on the Y direction
-    Numerical value
+    - Mean of the Average Frequency of the body angular velocity on the Y direction
+    - Numerical value
     
 57. freqBodyGyroMeanZ
-    Mean of the Average Frequency of the body angular velocity on the Z direction
-    Numerical value
+    - Mean of the Average Frequency of the body angular velocity on the Z direction
+    - Numerical value
     
 58. freqBodyGyroStandardDeviationX
-    Mean of the Standard deviation Frequency of the body angular velocity on the X direction
-    Numerical value
+    - Mean of the Standard deviation Frequency of the body angular velocity on the X direction
+    - Numerical value
     
 59. freqBodyGyroStandardDeviationY
-    Mean of the Standard deviation Frequency of the body angular velocity on the Y direction
-    Numerical value
+    - Mean of the Standard deviation Frequency of the body angular velocity on the Y direction
+    - Numerical value
     
 60. freqBodyGyroStandardDeviationZ
-    Mean of the Standard deviation Frequency of the body angular velocity on the Z direction
-    Numerical value
+    - Mean of the Standard deviation Frequency of the body angular velocity on the Z direction
+    - Numerical value
     
 61. freqBodyAccMagMean
-    Mean of the Average Magnitude Frequency of body linear acceleration
-    Numerical value
+    - Mean of the Average Magnitude Frequency of body linear acceleration
+    - Numerical value
     
 62. freqBodyAccMagStandardDeviation
-    Mean of the Standard deviation Magnitude Frequency of body linear acceleration
-    Numerical value
+    - Mean of the Standard deviation Magnitude Frequency of body linear acceleration
+    - Numerical value
     
 63. freqBodyBodyAccJerkMagMean
-    Mean of the Average Magnitude Derived Frequency of body linear acceleration
-    Numerical value
+    - Mean of the Average Magnitude Derived Frequency of body linear acceleration
+    - Numerical value
     
 64. freqBodyBodyAccJerkMagStandardDeviation
-    Mean of the Standard deviation Magnitude Derived Frequency of body linear acceleration
-    Numerical value
+    - Mean of the Standard deviation Magnitude Derived Frequency of body linear acceleration
+    - Numerical value
     
 65. freqBodyBodyGyroMagMean
-    Mean of the Average Magnitude Frequency of the body angular velocity
-    Numerical value
+    - Mean of the Average Magnitude Frequency of the body angular velocity
+    - Numerical value
     
 66. freqBodyBodyGyroMagStandardDeviation
-    Mean of the Standard deviation Magnitude Frequency of the body angular velocity
-    Numerical value
+    - Mean of the Standard deviation Magnitude Frequency of the body angular velocity
+    - Numerical value
     
 67. freqBodyBodyGyroJerkMagMean
-    Mean of the Average Magnitude Derived Frequency of the body angular velocity
-    Numerical value
+    - Mean of the Average Magnitude Derived Frequency of the body angular velocity
+    - Numerical value
     
 68. freqBodyBodyGyroJerkMagStandardDeviation
-    Mean of the Standard deviation Magnitude Derived Frequency of the body angular velocity
-    Numerical value
+    - Mean of the Standard deviation Magnitude Derived Frequency of the body angular velocity
+    - Numerical value
     
 ## For more information about this data, please check the files "features_info.txt" and "README.txt"
 ## A full description is available at the site where the data was obtained: 
