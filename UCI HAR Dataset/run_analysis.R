@@ -82,5 +82,5 @@ run_analysis <- function(){
     # to all columns, column-wise of the columns "subject" and "activity"
     tidyData <- ddply(mainData,c("subject","activity"),numcolwise(mean))
     # Produce the output table
-    write.table(tidyData,"tidyData.txt")
+    write.table(tidyData,"tidyData.txt",row.names=FALSE)
 }

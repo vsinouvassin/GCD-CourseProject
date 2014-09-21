@@ -164,6 +164,7 @@ Indeed, if I make them more descritive, I will end up with variable names too lo
 6. For each of the variables above, except for "subject" and "activity", I calculate the average (mean) grouping by subject and activity.
 
 And I store the result in the data set called tidyData.
+This is a data frame of 180 observations from 68 variables.
 And this is the output, I write on a file called "tidyData.txt".
 
 

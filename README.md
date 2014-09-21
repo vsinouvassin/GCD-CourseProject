@@ -4,8 +4,8 @@ GCD-CourseProject
 Coursera Getting and Cleaning Data repo for Course Project
 
 You'll find on the GitHub repo the following files:
-- run_analysis.R
-- CodeBook.md
+- run_analysis.R (situated on the directory called "UCI HAR Dataset")
+- CodeBook.md (situated on the directory called "UCI HAR Dataset")
 - README.md
 
 The CodeBook file (CodeBook.md) describes the variables, the data, and any transformations or work that I performed to clean up the data.
