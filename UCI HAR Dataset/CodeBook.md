@@ -1,12 +1,12 @@
 ## CodeBook for run_analysis.R
 
-## Experimental design (description taken from the original README.txt)
+# Experimental design (description taken from the original README.txt)
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. 
 Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. 
 Using its embedded accelerometer and gyroscope, 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz have been captured.
 The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data.
 
-## Raw data
+# Raw data
 The raw data can be classified as following :
 
 1. X_train.txt and X_test.txt contain all the measurements when considered together:
@@ -24,11 +24,11 @@ The definition of these numbers is contained in activity_labels.txt.
 This file links the class labels with their activity name:
 WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
-## Processed data
+# Processed data
 1. For processing the data, I've not considered the "pure raw" data contained inside in the "Inertial signals" folders for both train and test data.
 These data have already been pre-processed for obtaining the measurements in X_train.txt and X_test.txt files as described in the original README.txt.
 
-# 1. Merges the training and the test sets to create one data set.
+## 1. Merges the training and the test sets to create one data set.
 2. Merging of data
 Following the description of the raw data above, I've merged the following files together:
 - X_train.txt and X_test.txt: Added the rows from X_test.txt to the rows of X_train.txt for getting the whole measurements data (called xData)
@@ -43,7 +43,7 @@ Then I've named each data :
 For finishing, I've merged these 3 data sets together by adding the subject column and the activity column (in this order) to the right of the measurements data.
 It produces the mainData data frame.
 
-# 2. Extracts only the measurements on the mean and standard deviation for each measurement.
+## 2. Extracts only the measurements on the mean and standard deviation for each measurement.
 3. For extracting only the measurements on the mean and standard deviation for each measurement, I've checked the presence in the variable names of the "feature" part (coming from the features.txt file) of the following strings:
 - "mean()" for the mean value
 - "std()" for the standard deviation value
@@ -51,7 +51,7 @@ The parentheses are important here or else, for instance, if we search for only 
 
 And then I've filtered the mainData on the columns containing the means, the standard deviations, the subject and the activity values.
 
-# 3. Uses descriptive activity names to name the activities in the data set
+## 3. Uses descriptive activity names to name the activities in the data set
 4. As described previously, the activity names were stored as a Factor of 6 levels in the raw data contained in "activity_labels.txt" file:
 WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
@@ -65,7 +65,7 @@ Walking, WalkingUpstairs, WalkingDownstairs, Sitting, Standing, Laying
 
 Finally, for this step, I replace the numeric values of the column "activity" of the mainData by their respective labels given in the reshaped activity labels data.
 
-# 4. Appropriately labels the data set with descriptive variable names.
+## 4. Appropriately labels the data set with descriptive variable names.
 5. The filtered variables names from the step 2 of the course project are the following:
 [1] "tBodyAcc-mean()-X"            "tBodyAcc-mean()-Y"          
 [3] "tBodyAcc-mean()-Z"            "tBodyAcc-std()-X"           
@@ -160,7 +160,7 @@ I end up with the following variable names:
 I've considered these variable names as descriptive enough.
 Indeed, if I make them more descritive, I will end up with variable names too long. So that's why I've only done the transformations described above.
 
-# 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+## 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 6. For each of the variables above, except for "subject" and "activity", I calculate the average (mean) grouping by subject and activity.
 
 And I store the result in the data set called tidyData.
@@ -168,7 +168,7 @@ This is a data frame of 180 observations from 68 variables.
 And this is the output, I write on a file called "tidyData.txt".
 
 
-## Data Dictionary: Description of each variable of tidyData data set
+# Data Dictionary: Description of each variable of tidyData data set
 1. subject
     ID of the subject who performed the activity
     Integer value: 1:30
