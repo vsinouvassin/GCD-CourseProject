@@ -22,11 +22,15 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 4. Download the run_analysis.R file and copy it in the "UCI HAR Dataset" directory
 
 5. Execute it by using the following commands:
+
 source("run_analysis.R")
+
 run_analysis()
 
 Executing this code produces a file called "tidyData.txt" in your working directory.
 
 For viewing the data contained in the file, please execute the following command:
+
 data <- read.table("tidyData.txt", header = TRUE)
+
 View(data)
